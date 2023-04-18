@@ -1,4 +1,3 @@
-import { Text } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -12,7 +11,7 @@ const Untitled1 = () => {
     }}>
         
         
-        <Text style={styles.xVAsQyDB}>mithilesh</Text>
+        
       </ScrollView>
     </SafeAreaView>;
 };
