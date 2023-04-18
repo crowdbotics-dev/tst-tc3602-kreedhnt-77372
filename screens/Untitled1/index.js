@@ -1,28 +1,32 @@
 import { Text } from "react-native";
 import React from "react";
-import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled1 = () => {
   return <SafeAreaView style={styles.safeArea}>
-        <ScrollView contentContainerStyle={{
-      backgroundColor: '#f0f0f1',
+      <ScrollView contentContainerStyle={{
+      backgroundColor: "#f0f0f1",
       padding: 10,
-      position: 'relative',
+      position: "relative",
       flex: 1
-    }}><View style={styles.uEREsUas}></View><View style={styles.rHzQOHsC}></View><Text style={styles.xVAsQyDB}>mithilesh</Text></ScrollView>
+    }}>
+        
+        
+        <Text style={styles.xVAsQyDB}>mithilesh</Text>
+      </ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: "100%"
   },
   uEREsUas: {
     height: 60,
     width: 180,
     backgroundColor: "#21c252",
     borderRadius: 0,
-    color: "#777777",
+    color: "#ladb5d",
     borderColor: "#9d1414",
     borderWidth: 16
   },
