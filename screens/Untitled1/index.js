@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   uEREsUas: {
     height: 60,
     width: 180,
-    backgroundColor: "#2123c1",
+    backgroundColor: "#21c252",
     borderRadius: 0,
     color: "#777777",
     borderColor: "#9d1414",
