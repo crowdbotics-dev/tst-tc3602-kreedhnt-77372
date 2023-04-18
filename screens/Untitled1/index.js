@@ -1,3 +1,4 @@
+import { View } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -12,7 +13,7 @@ const Untitled1 = () => {
         
         
         
-      </ScrollView>
+      <View style={styles.hfkOLVah}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -45,6 +46,13 @@ const styles = StyleSheet.create({
     fontSize: 14,
     borderRadius: 0,
     color: "#1adb5d"
+  },
+  hfkOLVah: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled1;
